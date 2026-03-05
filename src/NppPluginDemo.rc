@@ -1,0 +1,164 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include <windows.h>
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,4,0,0
+ PRODUCTVERSION 4,4,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Don HO don.h@free.fr"
+            VALUE "FileDescription", "Plugin template for Notepad++"
+            VALUE "FileVersion", "4.4"
+            VALUE "InternalName", "NppPluginTemplate.dll"
+            VALUE "LegalCopyright", "Copyright 2024 by Don HO"
+            VALUE "OriginalFilename", "NppPluginTemplate.dll"
+            VALUE "ProductName", "NppPluginTemplate"
+            VALUE "ProductVersion", "4.4"
+        END
+    END
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SETTINGS_DLG DIALOGEX 0, 0, 310, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Replace Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,199,156,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,253,156,50,14
+    CONTROL         "",IDC_CHK_OCT1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,36,64,16,10
+    CONTROL         "",IDC_CHK_OCT2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,82,64,16,10
+    CONTROL         "",IDC_CHK_OCT3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,130,64,16,10
+    CONTROL         "",IDC_CHK_OCT4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,177,64,16,10
+    EDITTEXT        IDC_EDIT_OCT1,36,49,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_OCT2,83,49,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_OCT3,130,49,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_OCT4,177,49,40,14,ES_AUTOHSCROLL
+    LTEXT           "Check the boxes below to choose which parts of the IP address or Hostname/URL get replaced and what you want to replaced with:",IDC_STATIC,36,16,232,19
+    LTEXT           "IPv4:",IDC_STATIC,36,37,18,8
+    LTEXT           "IPv6:",IDC_STATIC,35,81,18,8
+    EDITTEXT        IDC_EDIT_IPV6,35,92,132,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_CHK_IPV6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,34,107,16,10
+    CTEXT           ".",IDC_STATIC,75,55,8,8,0,WS_EX_TRANSPARENT
+    CTEXT           ".",IDC_STATIC,123,55,8,8,0,WS_EX_TRANSPARENT
+    CTEXT           ".",IDC_STATIC,170,55,8,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_HOST,35,133,130,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_CHK_HOST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,148,16,10
+    LTEXT           "Host/URL:",IDC_STATIC,36,123,34,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_SETTINGS_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_SETTINGS_DLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
